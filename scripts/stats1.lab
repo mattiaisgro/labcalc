@@ -1,0 +1,23 @@
+
+echo
+echo Stats for $ARG1
+
+echo-noline "N = "
+size $ARG1
+
+echo-noline "Mean: "
+mean $ARG1
+
+echo-noline "Variance: "
+variance $ARG1
+
+echo-noline "Standard Deviation: "
+stdev $ARG1
+
+echo-noline "STDOM: "
+stdom $ARG1
+
+echo-noline "Relative Error: "
+relative-error $ARG1
+
+echo
