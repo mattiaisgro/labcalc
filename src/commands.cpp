@@ -122,6 +122,7 @@ void lc_insert(const LCSymList& symbols, LCEnv& env) {
 			if(curr == "" || to_lower_case(curr) == "end")
 				break;
 
+			std::replace(curr.begin(), curr.end(), ',', '.');
 			buffer.emplace_back(std::stod(curr));
 		}
 

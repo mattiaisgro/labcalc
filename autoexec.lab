@@ -1,8 +1,9 @@
 
 # This script gets executed on startup
 
-# options always-overwrite 1
+options always-overwrite 1
+options output-precision 12
 
 # Load example data
-load data/example.dat data/linearization.dat data/measures.dat
-echo
+# load data/example.dat data/linearization.dat data/measures.dat
+# echo

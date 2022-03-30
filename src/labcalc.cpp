@@ -56,7 +56,11 @@ int main(int argc, char const *argv[]) {
 			continue;
 
 		// Interpret and execute line
-		interpret(symbols, env);
+		try {
+			interpret(symbols, env);
+		} catch(std::exception e) {
+			std::cout << e.what() << std::endl;
+		}
 	}
 
 	return 0;

@@ -9,7 +9,11 @@ using real = float;
 using real = double;
 #endif
 
+
 namespace uroboro {
+
+	// PHI constant.
+	constexpr double PHI = 1.6180339887498948482045868;
 
 	// PI constant.
 	constexpr double PI = 3.141592653589793238462643;
